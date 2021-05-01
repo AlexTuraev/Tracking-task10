@@ -1,0 +1,64 @@
+.app-section{
+	padding: 15px;
+	width: 500px;
+	min-width: 360px; /* если окажется во flex и будет сжиматься */
+	border: 1px solid grey;
+}
+
+.app-section__input-form{
+	width: 100%;
+	margin: 0 0 20px 0;
+	padding: 0;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.app-section__input{
+	width: 80%;
+	font-size: 14px;
+}
+.app-section__btn{
+	margin-left: 5px;
+}
+
+.app-section__urls{
+	width: 100%;
+}
+
+.app-section__ul-records{
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	list-style: none;
+	max-height: 200px;
+	overflow-y: scroll;
+}
+
+.app-section__ul-records li{
+	display: flex;
+	width: 100%;
+	position: relative;
+	margin-bottom: 5px;
+}
+
+.app-section__a-href{
+	width: 80%;
+	height: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.app-section__a-href--bk{
+	background-color: magenta;
+}
+
+.app-section__remove-button{
+	width: 15%;
+	height: 20px;
+	position: absolute;
+	right: 0;
+}
+
+.tracking__table tbody td{
+	margin-right: 40px;
+}
